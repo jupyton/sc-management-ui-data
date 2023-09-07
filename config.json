@@ -1,0 +1,47 @@
+{
+  "whitelisted": [],
+  "deployer": {
+    "1": false,
+    "56": false,
+    "97": false,
+    "137": false,
+    "80001": false,
+    "11155111": false,
+    "address": ""
+  },
+  "implementations": {
+    "umint": {
+      "1": {
+        "1": false,
+        "56": false,
+        "97": false,
+        "137": false,
+        "80001": false,
+        "11155111": false,
+        "address": ""
+      },
+      "versions": 1,
+      "name": "U-Mint"
+    }
+  },
+  "applications": {
+    "umint": {
+      "1": false,
+      "56": false,
+      "97": false,
+      "137": false,
+      "80001": false,
+      "11155111": false,
+      "address": "",
+      "name": "U-Mint",
+      "collections": {
+        "1": [],
+        "56": [],
+        "97": [],
+        "137": [],
+        "80001": [],
+        "11155111": []
+      }
+    }
+  }
+}
