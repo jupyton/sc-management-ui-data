@@ -1,13 +1,16 @@
 {
-  "whitelisted": ["0x8fC279d17f9a7E197E0B8c16B238E66f1712a8f7", "0x7d76b530215B8c459c706d318887f644b179dc9A"],
+  "whitelisted": [
+    "0x8fC279d17f9a7E197E0B8c16B238E66f1712a8f7",
+    "0x7d76b530215B8c459c706d318887f644b179dc9A"
+  ],
   "deployer": {
     "1": false,
     "56": false,
     "97": false,
     "137": false,
-    "80001": false,
+    "80001": true,
     "11155111": false,
-    "address": ""
+    "address": "0xd9493d30f376c46c29b37e6e33db346766522873"
   },
   "implementations": {
     "umint": {
