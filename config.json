@@ -8,9 +8,9 @@
     "56": false,
     "97": false,
     "137": false,
-    "80001": true,
+    "80001": false,
     "11155111": false,
-    "address": "0xd9493d30f376c46c29b37e6e33db346766522873"
+    "address": ""
   },
   "implementations": {
     "umint": {
@@ -19,9 +19,9 @@
         "56": false,
         "97": false,
         "137": false,
-        "80001": true,
+        "80001": false,
         "11155111": false,
-        "address": "0x1F3fd3Db7d8908346d5287c9dac9614D277eBd0C"
+        "address": ""
       },
       "versions": 1,
       "name": "U-Mint"
@@ -33,18 +33,16 @@
       "56": false,
       "97": false,
       "137": false,
-      "80001": true,
+      "80001": false,
       "11155111": false,
-      "address": "0x4904382fb0C0F19320472F4Bff55b81E611d27Ea",
+      "address": "",
       "name": "U-Mint",
       "collections": {
         "1": [],
         "56": [],
         "97": [],
         "137": [],
-        "80001": [
-          "DiatoTest"
-        ],
+        "80001": [],
         "11155111": []
       }
     }
