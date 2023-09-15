@@ -8,9 +8,9 @@
     "56": false,
     "97": false,
     "137": false,
-    "80001": true,
+    "80001": false,
     "11155111": false,
-    "address": "0xf1bae42f1a74cef91dfbb2e04b6b1aa6fe32cad3"
+    "address": ""
   },
   "implementations": {
     "umint": {
@@ -19,9 +19,9 @@
         "56": false,
         "97": false,
         "137": false,
-        "80001": true,
+        "80001": false,
         "11155111": false,
-        "address": "0x732241b7977Aa71B6B1458e6449e99171b1462F2"
+        "address": ""
       },
       "versions": 1,
       "name": "U-Mint"
@@ -33,20 +33,16 @@
       "56": false,
       "97": false,
       "137": false,
-      "80001": true,
+      "80001": false,
       "11155111": false,
-      "address": "0x7901Dd96c8595b1fE53fF0d3C95c5Fdb415A35ca",
+      "address": "",
       "name": "U-Mint",
       "collections": {
         "1": [],
         "56": [],
         "97": [],
         "137": [],
-        "80001": [
-          "BadgeToken",
-          "MyNFT",
-          "WARR"
-        ],
+        "80001": [],
         "11155111": []
       }
     }
