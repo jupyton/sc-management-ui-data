@@ -1,16 +1,55 @@
 {
   "whitelisted": [
-    "0x8fC279d17f9a7E197E0B8c16B238E66f1712a8f7",
-    "0x7d76b530215B8c459c706d318887f644b179dc9A"
+    "0xB33d71B9dd58789d110EE7DD4ddc10980985F396",
+    "0x28061E693d5f9Dd4Cc15E86cC6984f34c7C4aE15"
+  ],
+  "uris": [
+    {
+      "id": 1,
+      "label": "UKISS Identifier Token",
+      "value": "https://gateway.pinata.cloud/ipfs/Qmdtz4N698N3hUMpcoMFcqRvrVNQuw27eqmG7wY6GRTUdg/"
+    },
+    {
+      "id": 2,
+      "label": "KISSdrop Generation 1",
+      "value": "https://gateway.pinata.cloud/ipfs/QmUY4FtDaNQmaLD5XcVtUsuH9k1U9MZsLPMWMxSZWTx43J/"
+    },
+    {
+      "id": 3,
+      "label": "Bored Ape Yacht Club",
+      "value": "https://ipfs.io/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/"
+    },
+    {
+      "id": 4,
+      "label": "Azuki",
+      "value": "https://ikzttp.mypinata.cloud/ipfs/QmQFkLSQysj94s5GvTHPyzTxrawwtjgiiYS2TBLgrvw8CW/"
+    },
+    {
+      "id": 5,
+      "label": "Beanz",
+      "value": "https://gateway.pinata.cloud/ipfs/QmdYeDpkVZedk1mkGodjNmF35UNxwafhFLVvsHrWgJoz6A/beanz_metadata/"
+    },
+    {
+      "id": 6,
+      "label": "Goblin Town",
+      "value": "https://ipfs.io/ipfs/QmdxDAXQZn7LtbTCrfLgYX2YbWHGi2t7UQwqSEpt45YEh2/"
+    },
+    {
+      "id": 7,
+      "label": "Pudgy Pengins",
+      "value": "https://ipfs.io/ipfs/bafybeibc5sgo2plmjkq2tzmhrn54bk3crhnc23zd2msg4ea7a4pxrkgfna/"
+    }
   ],
   "deployer": {
     "1": false,
     "56": false,
     "97": false,
     "137": false,
-    "80001": true,
+    "420": false,
+    "43113": false,
+    "80001": false,
     "11155111": false,
-    "address": "0x4e8e383fffe449901df8e8d53667751fd4f7d347"
+    "address": ""
   },
   "implementations": {
     "umint": {
@@ -19,11 +58,24 @@
         "56": false,
         "97": false,
         "137": false,
-        "80001": true,
+        "420": false,
+        "43113": false,
+        "80001": false,
         "11155111": false,
-        "address": "0x77dd1a2611FDE9325372774DFdD29f33E20B706b"
+        "address": ""
       },
-      "versions": 1,
+      "2": {
+        "1": false,
+        "56": false,
+        "97": false,
+        "137": false,
+        "420": false,
+        "43113": false,
+        "80001": false,
+        "11155111": false,
+        "address": ""
+      },
+      "versions": 2,
       "name": "U-Mint"
     }
   },
@@ -33,30 +85,34 @@
       "56": false,
       "97": false,
       "137": false,
-      "80001": true,
+      "420": false,
+      "43113": false,
+      "80001": false,
       "11155111": false,
-      "address": "0xB51B5a69fe023258892760083571bb8aFC98D348",
+      "address": "",
       "name": "U-Mint",
       "collections": {
         "1": [],
         "56": [],
         "97": [],
         "137": [],
-        "80001": [
-          "MyNFT"
-        ],
+        "420": [],
+        "43113": [],
+        "80001": [],
         "11155111": []
       }
     }
   },
   "testing": {
-    "nft": {      
+    "nft": {
       "1": [],
       "56": [],
       "97": [],
       "137": [],
+      "420": [],
+      "43113": [],
       "80001": [],
-      "11155111": [],
+      "11155111": []
     }
   }
 }
