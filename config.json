@@ -1,69 +1,92 @@
 {
   "whitelisted": [
-    "0xa1F36159a017daC0335391B926be16038078f28a",
-    "0xb8Ffd518cC70F2F2Bfa0fe8823d7e82ab5887993",
-    "0x28061E693d5f9Dd4Cc15E86cC6984f34c7C4aE15"
+    "0x4A54633A9BDc1bB24Ef1991bd43A8D284892F623",
+    "0xB24A24aF4326F31bc2cf9c5E25d961F5A206b587"
   ],
-  "uris": [
-    {
-      "id": 1,
-      "label": "UKISS Identifier Token",
-      "value": "https://gateway.pinata.cloud/ipfs/Qmdtz4N698N3hUMpcoMFcqRvrVNQuw27eqmG7wY6GRTUdg/"
-    },
-    {
-      "id": 2,
-      "label": "KISSdrop Generation 1",
-      "value": "https://gateway.pinata.cloud/ipfs/QmUY4FtDaNQmaLD5XcVtUsuH9k1U9MZsLPMWMxSZWTx43J/"
-    },
-    {
-      "id": 3,
-      "label": "Bored Ape Yacht Club",
-      "value": "https://ipfs.io/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/"
-    },
-    {
-      "id": 4,
-      "label": "Azuki",
-      "value": "https://ikzttp.mypinata.cloud/ipfs/QmQFkLSQysj94s5GvTHPyzTxrawwtjgiiYS2TBLgrvw8CW/"
-    },
-    {
-      "id": 5,
-      "label": "Beanz",
-      "value": "https://gateway.pinata.cloud/ipfs/QmdYeDpkVZedk1mkGodjNmF35UNxwafhFLVvsHrWgJoz6A/beanz_metadata/"
-    },
-    {
-      "id": 6,
-      "label": "Goblin Town",
-      "value": "https://ipfs.io/ipfs/QmdxDAXQZn7LtbTCrfLgYX2YbWHGi2t7UQwqSEpt45YEh2/"
-    },
-    {
-      "id": 7,
-      "label": "Pudgy Pengins",
-      "value": "https://ipfs.io/ipfs/bafybeibc5sgo2plmjkq2tzmhrn54bk3crhnc23zd2msg4ea7a4pxrkgfna/"
-    }
-  ],
+  "uris": {
+    "erc721": [
+      {
+        "id": 1,
+        "label": "UKISS Identifier Token",
+        "value": "https://gateway.pinata.cloud/ipfs/Qmdtz4N698N3hUMpcoMFcqRvrVNQuw27eqmG7wY6GRTUdg/"
+      },
+      {
+        "id": 2,
+        "label": "KISSdrop Generation 1",
+        "value": "https://gateway.pinata.cloud/ipfs/QmUY4FtDaNQmaLD5XcVtUsuH9k1U9MZsLPMWMxSZWTx43J/"
+      },
+      {
+        "id": 3,
+        "label": "Bored Ape Yacht Club",
+        "value": "https://ipfs.io/ipfs/QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/"
+      },
+      {
+        "id": 4,
+        "label": "Azuki",
+        "value": "https://ikzttp.mypinata.cloud/ipfs/QmQFkLSQysj94s5GvTHPyzTxrawwtjgiiYS2TBLgrvw8CW/"
+      },
+      {
+        "id": 5,
+        "label": "Beanz",
+        "value": "https://gateway.pinata.cloud/ipfs/QmdYeDpkVZedk1mkGodjNmF35UNxwafhFLVvsHrWgJoz6A/beanz_metadata/"
+      },
+      {
+        "id": 6,
+        "label": "Goblin Town",
+        "value": "https://ipfs.io/ipfs/QmdxDAXQZn7LtbTCrfLgYX2YbWHGi2t7UQwqSEpt45YEh2/"
+      },
+      {
+        "id": 7,
+        "label": "Pudgy Pengins",
+        "value": "https://ipfs.io/ipfs/bafybeibc5sgo2plmjkq2tzmhrn54bk3crhnc23zd2msg4ea7a4pxrkgfna/"
+      }
+    ],
+    "erc1155": [
+      {
+        "id": 1,
+        "label": "Anichess Orbs of Power",
+        "value": "https://metadata.anichess.com/orb/"
+      },
+      {
+        "id": 2,
+        "label": "DeFi World NFT Collection",
+        "value": "https://ipfs.io/ipfs/bafybeictbnbhum364tb5duqj7kqbqudzin7uzte3oncdytwrwrpe564ecq/"
+      },
+      {
+        "id": 3,
+        "label": "AVE FENIX",
+        "value": "https://gateway.pinata.cloud/ipfs/bafybeihregwlh3keluoqn6nfef65w67xoizx3ybihth4dn3xo5pzno4rle/"
+      },
+      {
+        "id": 4,
+        "label": "SENSACIONES",
+        "value": "https://gateway.pinata.cloud/ipfs/bafybeihxwkknbwrckg3tmge3wrr7euuexyfy2nvekhg6s3m2fl7uydh7hi/"
+      }
+    ]
+  },
   "deployer": {
     "1": false,
     "56": false,
-    "97": false,
+    "97": true,
     "137": false,
     "420": false,
     "43113": false,
-    "80001": false,
+    "80002": false,
     "11155111": false,
-    "address": ""
+    "address": "0xcbcec3f163506343bed70d6d3a66239f3507118b"
   },
   "implementations": {
     "umint": {
       "1": {
         "1": false,
         "56": false,
-        "97": false,
+        "97": true,
         "137": false,
         "420": false,
         "43113": false,
-        "80001": false,
+        "80002": false,
         "11155111": false,
-        "address": ""
+        "address": "0x0FA84002573187905826c80EB56A637B1cdC19Ba"
       },
       "2": {
         "1": false,
@@ -72,47 +95,147 @@
         "137": false,
         "420": false,
         "43113": false,
-        "80001": false,
+        "80002": false,
         "11155111": false,
         "address": ""
       },
       "versions": 2,
       "name": "U-Mint"
+    },
+    "clientVault": {
+      "1": {
+        "1": false,
+        "56": false,
+        "97": true,
+        "137": false,
+        "420": false,
+        "43113": false,
+        "80002": false,
+        "11155111": false,
+        "address": "0x707857AB7b971171A8447421A0c8FEdfE0994c13"
+      },
+      "versions": 1,
+      "name": "Client Vault"
     }
   },
   "applications": {
     "umint": {
       "1": false,
       "56": false,
-      "97": false,
+      "97": true,
       "137": false,
       "420": false,
       "43113": false,
-      "80001": false,
+      "80002": false,
       "11155111": false,
-      "address": "",
+      "address": "0xe47703246944954B1C87e75a221a46587A8e231b",
       "name": "U-Mint",
       "collections": {
+        "1": {
+          "erc20": [],
+          "erc721": [],
+          "erc1155": []
+        },
+        "56": {
+          "erc20": [],
+          "erc721": [],
+          "erc1155": []
+        },
+        "97": {
+          "erc20": [
+            "UKISS USD Coin"
+          ],
+          "erc721": [
+            "UKISS PudgyPenguins"
+          ],
+          "erc1155": [
+            "UKISS Anichess Orbs of Power"
+          ]
+        },
+        "137": {
+          "erc20": [],
+          "erc721": [],
+          "erc1155": []
+        },
+        "420": {
+          "erc20": [],
+          "erc721": [],
+          "erc1155": []
+        },
+        "43113": {
+          "erc20": [],
+          "erc721": [],
+          "erc1155": []
+        },
+        "80002": {
+          "erc20": [],
+          "erc721": [],
+          "erc1155": []
+        },
+        "11155111": {
+          "erc20": [],
+          "erc721": [],
+          "erc1155": []
+        }
+      },
+      "clientVault": {
         "1": [],
         "56": [],
-        "97": [],
+        "97": [
+          "UKISS Technology"
+        ],
         "137": [],
         "420": [],
         "43113": [],
-        "80001": [],
+        "80002": [],
         "11155111": []
       }
     }
   },
   "testing": {
-    "nft": {
+    "erc20": {
       "1": [],
       "56": [],
-      "97": [],
+      "97": [
+        {
+          "collection": "UKISS USD Coin",
+          "address": "0x2b2c6d0f9c9e528a1ab20cc5478d225c73374385"
+        }
+      ],
       "137": [],
       "420": [],
       "43113": [],
-      "80001": [],
+      "80002": [],
+      "11155111": []
+    },
+    "erc721": {
+      "1": [],
+      "56": [],
+      "97": [
+        {
+          "collection": "UKISS PudgyPenguins",
+          "address": "0xb728109f668884dda921805a35d6a487484db63a"
+        }
+      ],
+      "137": [],
+      "420": [],
+      "43113": [],
+      "80002": [],
+      "11155111": []
+    },
+    "erc1155": {
+      "1": [],
+      "56": [],
+      "97": [
+        {
+          "collection": "UKISS Anichess Orbs of Power",
+          "address": "0xdeb4427168aca432a4ac90a9d5fb03c62ce7578f"
+        }
+      ],
+      "137": [],
+      "420": [],
+      "43113": [],
+      "80002": [],
       "11155111": []
     }
   }
