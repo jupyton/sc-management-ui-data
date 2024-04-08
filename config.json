@@ -113,9 +113,10 @@
         "137": false,
         "420": false,
         "43113": false,
+        "80001": true,
         "80002": false,
         "11155111": false,
-        "address": ""
+        "address": "0x5d4BC29acc45E0b239D541DD447d9866BbBF8d60"
       },
       "versions": 1,
       "name": "Client Vault"
