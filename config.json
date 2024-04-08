@@ -67,13 +67,13 @@
   "deployer": {
     "1": false,
     "56": false,
-    "97": false,
+    "97": true,
     "137": false,
     "420": false,
     "43113": false,
     "80002": false,
     "11155111": false,
-    "address": ""
+    "address": "0xe38685ec56f63c808d30297fc7c6a16d56316196"
   },
   "implementations": {
     "umint": {
