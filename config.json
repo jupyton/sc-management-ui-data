@@ -85,9 +85,10 @@
         "137": false,
         "420": false,
         "43113": false,
+        "80001": true,
         "80002": false,
         "11155111": false,
-        "address": ""
+        "address": "0x53E0Ed70e8Fabc048d3A08c98829deCEa974850F"
       },
       "2": {
         "1": false,
