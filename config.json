@@ -1,7 +1,7 @@
 {
   "whitelisted": [
-    "0x9e12360E375C3fA11fdDb4F0817eBDf556b22551",
-    "0x26e3a215829C40655bc8c8418F21445ea2F5d6Fc"
+    "0x4A54633A9BDc1bB24Ef1991bd43A8D284892F623",
+    "0xB24A24aF4326F31bc2cf9c5E25d961F5A206b587"
   ],
   "uris": {
     "erc721": [
@@ -71,24 +71,22 @@
     "137": false,
     "420": false,
     "43113": false,
-    "80001": true,
     "80002": false,
     "11155111": false,
-    "address": "0xe38685ec56f63c808d30297fc7c6a16d56316196"
+    "address": "0xcbcec3f163506343bed70d6d3a66239f3507118b"
   },
   "implementations": {
     "umint": {
       "1": {
         "1": false,
         "56": false,
-        "97": false,
+        "97": true,
         "137": false,
         "420": false,
         "43113": false,
-        "80001": true,
         "80002": false,
         "11155111": false,
-        "address": "0x53E0Ed70e8Fabc048d3A08c98829deCEa974850F"
+        "address": "0x0FA84002573187905826c80EB56A637B1cdC19Ba"
       },
       "2": {
         "1": false,
@@ -97,10 +95,9 @@
         "137": false,
         "420": false,
         "43113": false,
-        "80001": true,
         "80002": false,
         "11155111": false,
-        "address": "0xF2Bd4aC2F5a52bf5FCFcB31ECc44D0D390b5eA8d"
+        "address": ""
       },
       "versions": 2,
       "name": "U-Mint"
@@ -109,14 +106,13 @@
       "1": {
         "1": false,
         "56": false,
-        "97": false,
+        "97": true,
         "137": false,
         "420": false,
         "43113": false,
-        "80001": true,
         "80002": false,
         "11155111": false,
-        "address": "0x5d4BC29acc45E0b239D541DD447d9866BbBF8d60"
+        "address": "0x707857AB7b971171A8447421A0c8FEdfE0994c13"
       },
       "versions": 1,
       "name": "Client Vault"
@@ -126,14 +122,13 @@
     "umint": {
       "1": false,
       "56": false,
-      "97": false,
+      "97": true,
       "137": false,
       "420": false,
       "43113": false,
-      "80001": true,
       "80002": false,
       "11155111": false,
-      "address": "0x85FE3e14e2d88c25E7AF75DCdB62C260b604C4D4",
+      "address": "0xe47703246944954B1C87e75a221a46587A8e231b",
       "name": "U-Mint",
       "collections": {
         "1": {
@@ -147,9 +142,15 @@
           "erc1155": []
         },
         "97": {
-          "erc20": [],
-          "erc721": [],
-          "erc1155": []
+          "erc20": [
+            "UKISS USD Coin"
+          ],
+          "erc721": [
+            "UKISS PudgyPenguins"
+          ],
+          "erc1155": [
+            "UKISS Anichess Orbs of Power"
+          ]
         },
         "137": {
           "erc20": [],
@@ -166,17 +167,6 @@
           "erc721": [],
           "erc1155": []
         },
-        "80001": {
-          "erc20": [
-            "USD Coin"
-          ],
-          "erc721": [
-            "Bored Ape Yacht Club"
-          ],
-          "erc1155": [
-            "Anichess Orbs of Power"
-          ]
-        },
         "80002": {
           "erc20": [],
           "erc721": [],
@@ -191,13 +181,12 @@
       "clientVault": {
         "1": [],
         "56": [],
-        "97": [],
+        "97": [
+          "UKISS Technology"
+        ],
         "137": [],
         "420": [],
         "43113": [],
-        "80001": [
-          "UKISS Technology"
-        ],
         "80002": [],
         "11155111": []
       }
@@ -207,48 +196,42 @@
     "erc20": {
       "1": [],
       "56": [],
-      "97": [],
+      "97": [
+        	
+      ],
       "137": [],
       "420": [],
       "43113": [],
-      "80001": [
-        {
-          "collection": "USD Coin",
-          "address": "0x4CeD2a2898186d29aE121EaFDd71A51767D716ca"
-        }
-      ],
       "80002": [],
       "11155111": []
     },
     "erc721": {
       "1": [],
       "56": [],
-      "97": [],
+      "97": [
+        {
+          "collection": "UKISS PudgyPenguins",
+          "address": "0xb728109f668884dda921805a35d6a487484db63a"
+        }
+      ],
       "137": [],
       "420": [],
       "43113": [],
-      "80001": [
-        {
-          "collection": "Bored Ape Yacht Club",
-          "address": "0xc4b487ad72f786a512e4e11bcd485e33a032b917"
-        }
-      ],
       "80002": [],
       "11155111": []
     },
     "erc1155": {
       "1": [],
       "56": [],
-      "97": [],
+      "97": [
+        {
+          "collection": "UKISS Anichess Orbs of Power",
+          "address": "0xdeb4427168aca432a4ac90a9d5fb03c62ce7578f"
+        }
+      ],
       "137": [],
       "420": [],
       "43113": [],
-      "80001": [
-        {
-          "collection": "Anichess Orbs of Power",
-          "address": "0xdb9178f4eb08a05a38ea7e45a13b77cb89aaac7b"
-        }
-      ],
       "80002": [],
       "11155111": []
     }
