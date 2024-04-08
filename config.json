@@ -1,7 +1,7 @@
 {
   "whitelisted": [
-    "0x4A54633A9BDc1bB24Ef1991bd43A8D284892F623",
-    "0xB24A24aF4326F31bc2cf9c5E25d961F5A206b587"
+    "0x9e12360E375C3fA11fdDb4F0817eBDf556b22551",
+    "0x26e3a215829C40655bc8c8418F21445ea2F5d6Fc"
   ],
   "uris": {
     "erc721": [
@@ -67,26 +67,26 @@
   "deployer": {
     "1": false,
     "56": false,
-    "97": true,
+    "97": false,
     "137": false,
     "420": false,
     "43113": false,
     "80002": false,
     "11155111": false,
-    "address": "0xcbcec3f163506343bed70d6d3a66239f3507118b"
+    "address": ""
   },
   "implementations": {
     "umint": {
       "1": {
         "1": false,
         "56": false,
-        "97": true,
+        "97": false,
         "137": false,
         "420": false,
         "43113": false,
         "80002": false,
         "11155111": false,
-        "address": "0x0FA84002573187905826c80EB56A637B1cdC19Ba"
+        "address": ""
       },
       "2": {
         "1": false,
@@ -106,13 +106,13 @@
       "1": {
         "1": false,
         "56": false,
-        "97": true,
+        "97": false,
         "137": false,
         "420": false,
         "43113": false,
         "80002": false,
         "11155111": false,
-        "address": "0x707857AB7b971171A8447421A0c8FEdfE0994c13"
+        "address": ""
       },
       "versions": 1,
       "name": "Client Vault"
@@ -122,13 +122,13 @@
     "umint": {
       "1": false,
       "56": false,
-      "97": true,
+      "97": false,
       "137": false,
       "420": false,
       "43113": false,
       "80002": false,
       "11155111": false,
-      "address": "0xe47703246944954B1C87e75a221a46587A8e231b",
+      "address": "",
       "name": "U-Mint",
       "collections": {
         "1": {
@@ -142,15 +142,9 @@
           "erc1155": []
         },
         "97": {
-          "erc20": [
-            "UKISS USD Coin"
-          ],
-          "erc721": [
-            "UKISS PudgyPenguins"
-          ],
-          "erc1155": [
-            "UKISS Anichess Orbs of Power"
-          ]
+          "erc20": [],
+          "erc721": [],
+          "erc1155": []
         },
         "137": {
           "erc20": [],
@@ -181,9 +175,7 @@
       "clientVault": {
         "1": [],
         "56": [],
-        "97": [
-          "UKISS Technology"
-        ],
+        "97": [],
         "137": [],
         "420": [],
         "43113": [],
@@ -196,12 +188,7 @@
     "erc20": {
       "1": [],
       "56": [],
-      "97": [
-        {
-          "collection": "UKISS USD Coin",
-          "address": "0x2b2c6d0f9c9e528a1ab20cc5478d225c73374385"
-        }
-      ],
+      "97": [],
       "137": [],
       "420": [],
       "43113": [],
@@ -211,12 +198,7 @@
     "erc721": {
       "1": [],
       "56": [],
-      "97": [
-        {
-          "collection": "UKISS PudgyPenguins",
-          "address": "0xb728109f668884dda921805a35d6a487484db63a"
-        }
-      ],
+      "97": [],
       "137": [],
       "420": [],
       "43113": [],
@@ -226,12 +208,7 @@
     "erc1155": {
       "1": [],
       "56": [],
-      "97": [
-        {
-          "collection": "UKISS Anichess Orbs of Power",
-          "address": "0xdeb4427168aca432a4ac90a9d5fb03c62ce7578f"
-        }
-      ],
+      "97": [],
       "137": [],
       "420": [],
       "43113": [],
