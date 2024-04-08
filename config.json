@@ -169,7 +169,9 @@
           "erc20": [
             "USD Coin"
           ],
-          "erc721": [],
+          "erc721": [
+            "Bored Ape Yacht"
+          ],
           "erc1155": []
         },
         "80002": {
