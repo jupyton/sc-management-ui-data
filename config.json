@@ -168,9 +168,15 @@
           "erc1155": []
         },
         "80002": {
-          "erc20": [],
-          "erc721": [],
-          "erc1155": []
+          "erc20": [
+            "UKISS USD Coin"
+          ],
+          "erc721": [
+            "UKISS PudgyPenguins"
+          ],
+          "erc1155": [
+            "UKISS Anichess Orbs of Power"
+          ]
         },
         "11155111": {
           "erc20": [],
@@ -207,7 +213,12 @@
       "137": [],
       "420": [],
       "43113": [],
-      "80002": [],
+      "80002": [
+        {
+          "collection": "UKISS USD Coin",
+          "address": "0xaf6bdb86016b8800fb2f453a509c97f0b6ec2180"
+        }
+      ],
       "11155111": []
     },
     "erc721": {
@@ -222,7 +233,12 @@
       "137": [],
       "420": [],
       "43113": [],
-      "80002": [],
+      "80002": [
+        {
+          "collection": "UKISS PudgyPenguins",
+          "address": "0x2b2c6d0f9c9e528a1ab20cc5478d225c73374385"
+        }
+      ],
       "11155111": []
     },
     "erc1155": {
@@ -237,7 +253,12 @@
       "137": [],
       "420": [],
       "43113": [],
-      "80002": [],
+      "80002": [
+        {
+          "collection": "UKISS Anichess Orbs of Power",
+          "address": "0xb728109f668884dda921805a35d6a487484db63a"
+        }
+      ],
       "11155111": []
     }
   }
